@@ -1,10 +1,10 @@
 {
   "name": "grunt-phantomcss-gitdiff",
   "description": "Plugin to do CSS regression testing via PhantomCSS and diff on GitHub",
-  "version": "0.0.2",
-  "homepage": "https://github.com/chrisgladd/grunt-phantomcss-gitdiff",
+  "version": "0.0.3",
+  "homepage": "https://github.com/dtothefp/grunt-phantomcss-gitdiff",
   "author": {
-    "name": "David Fox-Powell",
+    "name": "David Fox-Powell / Optimizely",
     "email": "dtothefp@gmail.com"
   },
   "contributors": [
@@ -21,15 +21,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/chrisgladd/grunt-phantomcss-gitdiff.git"
+    "url": "git://github.com/dtothefp/grunt-phantomcss-gitdiff.git"
   },
   "bugs": {
-    "url": "https://github.com/chrisgladd/grunt-phantomcss-gitdiff/issues"
+    "url": "https://github.com/dtothefp/grunt-phantomcss-gitdiff/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/chrisgladd/grunt-phantomcss-gitdiff/blob/master/LICENSE-MIT"
+      "url": "https://github.com/dtothefp/grunt-phantomcss-gitdiff/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
