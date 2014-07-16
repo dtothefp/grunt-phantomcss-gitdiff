@@ -53,7 +53,7 @@ URL of your site or local server.
 
 ####
 Type: `String`
-Default: `.`
+Default: `'.'`
 
 Sorry if this seems redundant...hopefully it will be obsolete soon as well. 
 
