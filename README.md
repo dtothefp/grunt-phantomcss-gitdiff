@@ -1,4 +1,4 @@
-# grunt-phantomcss-github-diff
+# grunt-phantomcss-gitdiff
 
 > Automate CSS regression testing with PhantomCSS
 
@@ -47,12 +47,12 @@ Default: `true`
 This will be obsolete soon but it is a good idead to always specify as `true` if you want to do your diffs on GitHub.
 
 #### baseUrl
-Type: 'String'
+Type: `String`
 
 URL of your site or local server.
 
 ####
-Type: 'String'
+Type: `String`
 Default: `.`
 
 Sorry if this seems redundant...hopefully it will be obsolete soon as well. 
@@ -142,7 +142,7 @@ grunt.initConfig({
 });
 ```
 
-##NOTE: Test files specified below are not necessary unless you want to based upon interactive behavior.  If you would only like to diff pages based upon CSS/JS changes the automated test file exists in phantomjs/lib/pageTest.js
+###NOTE: Test files specified below are not necessary unless you want to test based upon interactive behavior.  If you would only like to diff pages based upon CSS/JS changes the automated test file exists in phantomjs/lib/pageTest.js.
 
 #### Sample test file
 
@@ -214,9 +214,3 @@ See the [CasperJS documentation](http://casperjs.readthedocs.org/en/latest/modul
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-## Release History
-* 2014-02-23   v0.2.2   Added multiple file example to README.md
-* 2014-02-07   v0.2.1   Fixed ResembleJS path issue
-* 2014-01-07   v0.2.0   Merged updates from Larry Davis
-* 2013-10-24   v0.1.1   Added the ability to use an external server
-* 2013-10-24   v0.1.0   Initial Release
