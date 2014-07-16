@@ -11,7 +11,7 @@ var path = require('path');
 var tmp = require('temporary');
 var phantomBinaryPath = require('phantomjs').path;
 var runnerPath = path.join(__dirname, '..', 'phantomjs', 'runner.js');
-var phantomCSSPath = path.join(__dirname, '..', 'node_modules', 'phantomcss-github-diff');
+var phantomCSSPath = path.join(__dirname, '..', 'node_modules', 'phantomcss-gitdiff');
 
 module.exports = function(grunt) {
     grunt.registerMultiTask('phantomcss-gitdiff', 'CSS Regression Testing', function() {
