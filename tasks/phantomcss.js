@@ -1,8 +1,8 @@
 /**
  * grunt-phantomcss
- * https://github.com/chrisgladd/grunt-phantomcss
+ * https://github.com/dtothefp/grunt-phantomcss-gitdiff
  *
- * Copyright (c) 2013 Chris Gladd
+ * Copyright (c) 2014 David Fox-Powell
  * Licensed under the MIT license.
  */
 'use strict';
@@ -22,7 +22,6 @@ module.exports = function(grunt) {
             baseUrl: 'http://localhost:3000/',
             serverRoot: '.',
             screenshots: 'screenshots',
-            failures: 'results',
             viewportSize: [1280, 800],
             logLevel: 'error'
         });
@@ -178,7 +177,7 @@ module.exports = function(grunt) {
 
         // Put failure screenshots in the same place as source screenshots, we'll move/delete them after the test run
         // Note: This duplicate assignment is provided for clarity; PhantomCSS will put failures in the screenshots folder by default
-        options.failures = options.screenshots;
+        //options.failures = options.screenshots;
 
         // Pass necessary paths
         options.tempFile = tempFile.path;

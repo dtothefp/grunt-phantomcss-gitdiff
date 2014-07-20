@@ -21,18 +21,9 @@ exports.basePages = function(options) {
     rootPath = options.test.splice(0, 1)[0];
   }
 
-  function prettyPath(path) {
-    var afterLastSlash = path.substr(path.lastIndexOf('/') + 1);
-    if( !!afterLastSlash.match(/^index\.html$/) ) {
-      return path.replace('/' + afterLastSlash, '').replace(/\//g, ' ');
-    } else {
-      return path.replace(/\.html/, '').replace(/\//g, ' ').replace(/_/g, ' ');
-    }
-  }
-
   casper.start(rootUrl)
   .then(function() {
-    phantomcss.screenshot('body', rootIndex !== -1 ? 'Main Index' : rootPath);
+    phantomcss.screenshot('body', rootPath);
   });
 
   options.test.forEach(function(path) {

@@ -32,6 +32,7 @@ var phantomcss = require(phantomCSSPath+s+'phantomcss.js');
 phantomcss.init({
     screenshotRoot: args.screenshots,
     failedComparisonsRoot: args.failures,
+    serverRoot: args.serverRoot,
     libraryRoot: phantomCSSPath, // Give absolute path, otherwise PhantomCSS fails
 
     //DFP: added gitDiff option
@@ -83,5 +84,3 @@ if (args.gitDiff) {
         phantom.exit();
     });
 }
-
-
