@@ -31,15 +31,15 @@
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt": "~0.4.1"
+    "grunt": "0.4.1"
   },
   "dependencies": {
-    "phantomcss-gitdiff": "~0.0.1",
-    "phantomjs": "~1.9.2-2",
+    "phantomcss-gitdiff": "0.0.4",
+    "phantomjs": "1.9.2-2",
     "temporary": "0.0.7"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "0.4.1"
   },
   "keywords": [
     "gruntplugin",

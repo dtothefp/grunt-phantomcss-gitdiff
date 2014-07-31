@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+- '0.8'
+- '0.6'
+branches:
+  only:
+  - master
+before_script:
+- npm install -g grunt-cli
+deploy:
+  provider: npm
+  email: dtothefp@gmail.com
+  api_key:
+    secure: SzP5WTdffMf63cwfZqigNwEKcO4L34/QARNnSsGE0RYW0jAlPAqDmL0DrhGJwgdvFl5CANIqnUCK0z1Yrn0yhlpJBZj6C1b+rKoA4IZfRDvxJinOCK86Gf+/9b1bs5mpcjl3EEhFBMW7UvXRCH9ewwZalVE13c62W8M9eRixAV4=
+  on:
+    tags: true
+    branch: master
