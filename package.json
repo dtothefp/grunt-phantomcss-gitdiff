@@ -1,7 +1,7 @@
 {
   "name": "grunt-phantomcss-gitdiff",
   "description": "Plugin to do CSS regression testing via PhantomCSS and diff on GitHub",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/dtothefp/grunt-phantomcss-gitdiff",
   "author": {
     "name": "David Fox-Powell / Optimizely",
@@ -37,9 +37,6 @@
     "phantomcss-gitdiff": "0.0.5",
     "phantomjs": "1.9.2-2",
     "temporary": "0.0.7"
-  },
-  "peerDependencies": {
-    "grunt": "0.4.1"
   },
   "keywords": [
     "gruntplugin",
