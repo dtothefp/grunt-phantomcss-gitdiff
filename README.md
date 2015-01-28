@@ -1,5 +1,7 @@
 # grunt-phantomcss-gitdiff
 
+## Deprecated....please see [grunt-resemble-cli](https://github.com/dtothefp/grunt-resemble-cli) that uses some phantomcss/resemble code but also allows for image comparison using GraphicsMagick which is must faster
+
 > Automate CSS regression testing with PhantomCSS
 
 ## Getting Started
